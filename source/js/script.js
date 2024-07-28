@@ -23,6 +23,6 @@ serachBtn.addEventListener('click', function () {
         $.querySelector('.weather').classList.remove('loading')
 
     } else {
-
+        alert("Your city is not found")
     }
 })
